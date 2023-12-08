@@ -11,6 +11,7 @@ const Icone = styled.li`
 const Icones = styled.li`
     display: flex;
     align-items: center;
+
 `
 
 function Iconess() {
