@@ -1,6 +1,7 @@
 import Headerr from './componentes/header/index.js'
 import styled from 'styled-components'
 import Pesquisa from './componentes/pesquisa/index.js';
+import UltimosLancamentos from './componentes/UltimosLancamentos/index.js';
 
 // eslint-disable-next-line no-lone-blocks
 {/*Para utilizar a crase, é necessário precionar ALT + 096 */ }
@@ -19,6 +20,7 @@ function App() {
     <AppContainer>
       <Headerr />
       <Pesquisa/>
+      <UltimosLancamentos/>
     </AppContainer>
   );
 }
